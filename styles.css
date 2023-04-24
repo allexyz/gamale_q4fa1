@@ -1,0 +1,150 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track{
+	background: #141414;
+}
+::-webkit-scrollbar-thumb{
+	background: #36241c;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: #2a382b;
+}
+header{
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background-color: white;
+}
+.logo img{
+	height: 40px;
+	float: left;
+}
+.logo a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: olive;
+	font-size: 28px;
+	font-family: 'Shadows Into Light', cursive;
+}
+main{
+	padding: 50px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #a1290b;
+}
+main h1{
+	margin-bottom: 40px;
+	display: block;
+	color: olive;
+}
+aside{
+	width: 30%;
+	margin-right: 80px;
+	font-size: 18px;
+	line-height: 2;
+	color: white;
+}
+aside h2{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 40px;
+}
+aside div{
+	font-weight: bold;
+	margin: 30px 0;
+}
+li{
+	text-align: justify;
+}
+aside p, li{
+	font-size: 15px;
+}
+.container{
+	width: 40%;
+	padding: 30px;
+	background-color: white;
+	border-radius: 80px;
+}
+#sign{
+	color: olive;
+	margin-top: 5px;
+	font-size: 12px;
+}
+.container a{
+	color: olive;
+	font-size: 12px;
+}
+.container a:hover{
+	color: orange;
+}
+.container a:active{
+	color: darkorange;
+}
+#fn, #ln, #pw, #mail, #number{
+	display: block;
+	padding: 5px;
+	margin: 5px auto;
+	font-size: 18px;
+	border: 1px solid olive;
+	border-radius: 10px;
+}
+form input:focus{
+	background-color: #e8cfb5;
+	outline: 1px solid orange;
+}
+.sex{
+	border: 1px solid olive;
+	border-radius: 10px;
+	background-color: white;
+	width: 206px;
+	margin: auto;
+	text-align: left;
+}
+.sex input{
+	accent-color: #44601f;
+}
+.sex h3{
+	padding: 5px;
+	font-size: 18px;
+	color: gray;
+	font-weight: normal;
+}
+.sex .row{
+	display: block;
+	padding: 5px;
+	color: gray;
+}
+#alert{
+	color: orange;
+	font-size: 10px;
+	margin: 0;
+	font-weight: bold;
+}
+#sub, #reset{
+	padding: 8px;
+	margin: 20px auto 30px auto;
+	outline-style: none;
+	border-style: none;
+	color: white;
+	font-size: 15px;
+	background-color: olive;
+	cursor: pointer;
+}
+#sub:hover, #reset:hover{
+	background-color: orange;
+}
+#sub:active, #reset:active{
+	background-color: darkorange;
+}
